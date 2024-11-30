@@ -63,9 +63,9 @@ pip install -r requirements.txt
 
 If the requirements.txt file doesn't exist, manually install the dependencies with:
 
-'''
+```
 pip install pandas matplotlib streamlit transformers
-'''
+```
 ## Run the Application
 After the installation is complete, run the Streamlit app:
 ```
@@ -76,23 +76,25 @@ This will start the app, and you should be able to access it in your browser at 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Usage
 
-Upload a Dataset: On the sidebar, click "Upload a CSV file" to upload your dataset. The dataset will be previewed in the main area of the app.
+### Upload a Dataset: On the sidebar, click "Upload a CSV file" to upload your dataset. The dataset will be previewed in the main area of the app.
 
-Ask a Query: Use the "Ask Your Query" section to type a natural language query, like:
+## Ask a Query: Use the "Ask Your Query" section to type a natural language query, like:
 
 "Show sales trend over time"
 "What is the highest sales value?"
 "Top 10 products by sales"
 The app will interpret the query and, if possible, generate the appropriate graph or data analysis.
 
-View Results: The app will display the relevant graph or data table based on your query.
+### View Results: The app will display the relevant graph or data table based on your query.
 
-Example Queries
+### Example Queries
 "Show sales trend over time."
 The app will generate a line chart showing how sales change over time, assuming the dataset contains time-based and sales-related columns.
 
+
 "What are the top 5 products by sales?"
 The app will display the top 5 products based on the sales column.
+
 
 "Show distribution of product categories."
 A pie chart will be generated based on the distribution of product categories.
